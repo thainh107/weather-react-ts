@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.container {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapperResult {
+  background: #ffffff;
+  width: 100%;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+  border-radius: 4px;
+}

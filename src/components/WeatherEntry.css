@@ -1,0 +1,75 @@
+.containerEntry {
+  width: 100%;
+  background: transparent;
+}
+
+.wrapperEntry {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapperEntryItem {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.entryLeft {
+  margin-right: 20px;
+}
+
+.currentTimeWeather {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.tempWeatherIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconWeather {
+  min-height: 90px;
+  padding-left: 12px;
+}
+
+.wrapperTemp {
+    display: flex;
+    flex-direction: row;
+}
+
+.tempText {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.tempCharacterWrapper {
+    height: 100%;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.detailsText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.containerDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nameLocationEntry {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+}

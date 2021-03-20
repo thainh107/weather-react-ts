@@ -1,0 +1,26 @@
+.containerDetail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 10px;
+  border-right: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.containerDetail:last-child {
+  border-right: none;
+}
+
+.iconWeatherDetail {
+  height: 50px;
+}
+
+.tempMax {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tempMin {
+  font-weight: normal;
+  font-size: 14px;
+}
